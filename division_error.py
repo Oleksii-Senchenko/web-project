@@ -18,4 +18,7 @@ def division(a,b):
 
 
 result = division(10,3)
+anti_result = division(10,0)
+
 print(result)
+print(anti_result)

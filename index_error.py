@@ -17,5 +17,8 @@ def check_index_error(func):
 def get_element_by_index(my_list, index):
     return my_list[index]
 
+result = get_element_by_index([1, 2, 3], 2)
+anti_result = get_element_by_index([1, 2, 3], 5)
 
-print(get_element_by_index([1, 2, 3], 5))
+print(result)
+print(anti_result)
